@@ -1,0 +1,12 @@
+name: plasmid-maker
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - biopython>=1.79
+      - pandas
+      - pytest
+      - click
+      - black
